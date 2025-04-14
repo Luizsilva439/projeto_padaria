@@ -113,7 +113,43 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer{
+    background-color:rgba(88, 43, 5, 0.555) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
+#logoname {
+    width: 400px;
+    display: flex;
+    border: solid 2px black;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -200px;
+}
+
+#redes ul {
+    list-style-type: none;
+    display: flex;
+    border: solid 2px black;
+    margin-right: -350px;              
+
+}
+#redes ul li {
+    width: 90px;
+    height: 40px;   
+    border: 2px solid white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+  
+}
+.icone{
+    width: 30px;
 }
 
 
