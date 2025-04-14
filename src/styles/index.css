@@ -1,8 +1,15 @@
-body {
+.container {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.container main{
+    flex: 1;
 }
 
 header h1 {
@@ -25,8 +32,12 @@ header p {
 }
 .boxheader{
     background-color: rgb(96, 7, 7);
-    height: 150px; 
+    height: 500px; 
 
+}
+img{
+    width: 380px;
+    margin: auto;
 }
 nav ul{
     background-color: rgb(107, 88, 53);
@@ -36,7 +47,7 @@ nav ul{
     list-style-type: none;
     display: flex;
     border: 2px solid rgb(96, 7, 7);
-    justify-content:safe;
+    justify-content:center;
 
 }
 nav ul li { 
@@ -47,6 +58,7 @@ nav ul li {
     color: white;
     width: 150px;
     height: 30px;
+    margin-right: 20px;
 }
 nav a:hover {
     background-color: white;    
@@ -64,4 +76,5 @@ nav a {
     height: 30px;
 
 }
+
 
