@@ -31,7 +31,6 @@ img{
 }
 
 .divtitle{
-    border: solid 2px black;
     width: 850px;
     flex-direction: column;
     display: flex;
