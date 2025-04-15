@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 .container {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,73 +14,54 @@
 .container main{
     flex: 1;
 }
-.boxheader{
-    background-color: #fdfaf0;
-    height: auto;
+.hp {
     display: flex;
     align-items: center;
-    justify-content:space-around;
 }
-.divimg{
-    margin-left: 650px;
-    margin-bottom: -15px;
+.divdohp{
+    background-color: #fdfaf0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-img{
+.maintitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#titulop {
+    font-family: "Alice", serif;
+    color: rgb(245, 131, 0);
+    font-size: 50px;
+}
+#frasep {
+    margin-top: 0;
+    width: 300px;
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+    color: rgb(73, 38, 5);
+    text-align: center;
+
+}
+.botaopedir {
+    font-family: "Alice", serif;
+    background-color: rgb(77, 55, 35);
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+}
+.botaopedir a:hover {
+    color:rgb(233, 137, 12);
+}
+.botaopedir a{
+    text-decoration:solid;
+    color: white;
+}
+#imghp{
     width: 250px;
 }
 
-.divtitle{
-    width: 850px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    margin-right: 500px;
-    
-}
-.maintitle{
-    font-family: "Alice", serif;
-    border: solid 2px white;
-    color: rgb(245, 131, 0);
-    font-size: 70px;
-    display: flex;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: -50px;   
-    
-}
-.frase{
-    font-family: "Great Vibes", cursive;
-    text-align: center  ;
-    color: rgb(73, 38, 5);
-    font-size: 50px;
-    width: 600px;
-    margin-bottom: 10px;
-}
-
-.divpedir{
-    width: 280px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.botaopedir{
-    font-size: 20px;
-    background-color : rgb(73, 38, 5) ;
-    width: 280px;
-    height: 40px;
-    border-radius: 6px;   
-}
-.botaopedir a{
-    font-family: "Alice", serif;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-.botaopedir a:hover{
-    color:rgb(233, 137, 12) ;
-}
 nav ul{
     background-color: rgb(68, 26, 1);
     margin-top: 0;
@@ -114,42 +94,55 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-footer{
-    background-color:rgba(88, 43, 5, 0.555) ;
+
+#edfp{
+    font-family: "Alice", serif;
+    width: 180px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.fp {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    background-color: rgb(148, 140, 127);
     
 }
-
-#logoname {
-    width: 400px;
+.divdofp{
+    background-color: rgb(148, 140, 127);
+    margin: auto;
     display: flex;
-    border: solid 2px black;
     align-items: center;
-    flex-direction: column;
-    margin-left: -200px;
+    justify-content: center;
 }
-
-#redes ul {
-    list-style-type: none;
+.meurodape{
+    align-items: center;
     display: flex;
-    border: solid 2px black;
-    margin-right: -350px;              
-
+    flex-direction: column;
+}
+#titulofp {
+    margin-top: 0;
+    font-family: "Alice", serif;
+    color: rgb(245, 131, 0);
+    font-size: 35px;
+}
+#imgfp{
+    width: 150px;
+}
+#redes ul {
+    display: flex;
+                  
 }
 #redes ul li {
-    width: 90px;
-    height: 40px;   
-    border: 2px solid white;
     border-radius: 6px;
     display: flex;
-    align-items: center;    
-    justify-content: center;
-  
+    align-items:center;
+}
+
+.icone {
+    width: 20px;
+    margin: 10px 10px;
 }
 .icone{
     width: 30px;
 }
-
-
