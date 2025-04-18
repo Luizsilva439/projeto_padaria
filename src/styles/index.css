@@ -14,6 +14,8 @@
 .container main{
     flex: 1;
 }
+
+/*Aqui começa o cabeçalho do site*/
 .hp {
     display: flex;
     align-items: center;
@@ -94,7 +96,23 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+/*Aqui começa o corpo do site*/
+.Slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.Slides{
+    width: 400%;
+    height:400%;
+    display: flex;
+}
+.Slides input {
+    display: none;
+}
 
+/*Aqui começa o rodapé do site*/
 #edfp{
     font-family: "Alice", serif;
     width: 180px;
