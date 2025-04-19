@@ -18,14 +18,11 @@
 }
 
 .contato_main_container{
+    margin: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+   
 }
 
 .mensagem_input{
@@ -39,8 +36,42 @@
 }
 
 .imagem_contato{
-    width: 50%;
+
+    width: 60%;
     height: auto;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-left: px;
+}
+
+.main_section_h2{
+    margin-bottom: 35px;
+    color: rgb(245, 131, 0);
+}
+
+.container_botao{
+    font-family: "Alice", serif;
+    background-color: rgb(77, 55, 35);
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+.container_botao a:hover {
+    color:rgb(233, 137, 12);
+}
+.container_botao a{
+    text-decoration:none;
+    color: white;
+}
+.trabalheconosco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_section_p{
+    margin-bottom: 30px;
 }
