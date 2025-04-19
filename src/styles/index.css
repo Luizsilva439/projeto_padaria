@@ -115,6 +115,7 @@ nav a {
     display: flex;
 }
 #textoinf1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(68, 26, 1);
     color: white;
     font-size:25px;
@@ -128,9 +129,11 @@ nav a {
     
 }
 #textoinf1 h3{
-    margin-top: 0;
-    border: 3px solid blue;
-    font-size: 40px;
+    font-family: "Alice", serif;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 35px;
 }
 #imginf1 {
     width: 400px;
@@ -141,6 +144,7 @@ nav a {
     display: flex;
 }
 #textoinf2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size:25px;
     border: 3px solid black;
@@ -155,8 +159,8 @@ nav a {
     
 }
 #textoinf2 h3{
-    margin-top: 0;
-    border: 3px solid blue;
+    font-family: "Alice", serif;
+    margin-top: 10px;
     font-size: 40px;
 }
 #imginf2 {
