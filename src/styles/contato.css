@@ -9,6 +9,7 @@
 
 
 .contato_main{
+    background-color: bisque;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -30,14 +31,24 @@
 }
 
 .mensagem_input{
+    
     width: 500px;
     height: 200px;
     border-radius: 5px;
     border: 1px solid rgb(77, 55, 35);
     padding: 10px;
     border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     
 }
+
+
+.mensagem_input:focus {  
+    border-color: rgb(245, 131, 0);
+    outline: none;
+}  
 
 .imagem_contato{
 
@@ -48,16 +59,16 @@
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     margin-left: px;
+    box-shadow: 0 4px 8px rgba(0, 1, 1, 1);
 }
 
 .main_section_h2{
     
     margin-top: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Alice", serif;
     color: rgb(245, 131, 0);
     font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .container_botao{
@@ -87,17 +98,25 @@
 
 .main_section_p{
     margin-bottom: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
     font-weight: 200;
     font-style: normal;
 }
 
 .input_container{
     margin-bottom: 10px;
+    
 }
 
 .caixa_input{
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.caixa_input:focus {  
+    border-color: rgb(245, 131, 0);
+    outline: none;
 }
 
 .Mensagem{
@@ -105,4 +124,5 @@
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
+    
 }
