@@ -10,11 +10,19 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: -8px 8px 10px gray;
+
+}
+.card:hover{
+    box-shadow: 0 0 10px black;
+}
+.card:hover img{
+    scale: 1.2;
+    
 }
 
+
 .card img { 
-    width: 200px;
+    width: 180px;
     
 }
 
@@ -23,7 +31,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
+
 .preco{
     font-family: Verdana;
     color: darkred;
@@ -42,6 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: bisque;
 
 }
 
