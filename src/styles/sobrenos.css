@@ -1,0 +1,62 @@
+.histdiversas{
+    display: flex;
+    flex-direction: column;
+}
+#hist1 {
+    background-color: bisque;
+    display: flex;
+}
+#histinf1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(68, 26, 1);
+    color: white;
+    font-size:15px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    margin-left: 5%;
+    
+}
+#histinf1 h3{
+    font-family: "Alice", serif;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 35px;
+}
+#imginf1histo {
+    width: 600px;
+    height: 500px;
+}
+#hist2 {
+    background-color: bisque;
+    display: flex;
+}
+#histinf2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size:15px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    margin-right: 5%;
+    background-color: rgb(68, 26, 1);
+    
+    
+}
+#textoinf2 h3{
+    font-family: "Alice", serif;
+    margin-top: 10px;
+    font-size: 40px;
+}
+#imginf2histo {
+    margin-left: 49%;
+    width: 500px;
+    height: 300px;
+}

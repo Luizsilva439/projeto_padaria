@@ -1,0 +1,47 @@
+
+.card {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 360px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -8px 8px 10px gray;
+}
+
+.card img { 
+    width: 200px;
+    
+}
+
+.caixaimagem {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preco{
+    font-family: Verdana;
+    color: darkred;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.botaocomprar {
+    border: 2px solid darkred;
+    border-radius: 6px;
+    font-family: Verdana;
+    padding: 6px;
+}
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
