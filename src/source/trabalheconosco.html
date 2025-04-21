@@ -4,7 +4,8 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Padaria XV de novembro</title>  
-    <link rel="stylesheet" href="../styles/index.css">  
+    <link rel="stylesheet" href="../styles/index.css"> 
+    <link rel="stylesheet" href="../styles/trabalhe.css">
 </head>  
 <body class="container">  
     <header class="hp">
@@ -28,7 +29,38 @@
         </ul>  
     </nav>
     <main>
-        <h2>FORMULARIO DE ACORDO COM QUE O PROFESSOR SOLICITOU VOLTADO PARA COLETA DE DADOS DE PESSOAS INTERESSADAS EM TRABALHAR PARA PADARIA, NOME EMAIL ESCOLARIDADE, CURSO, LOCAL PARA ANEXAR CURRICULO, ENDEREÇO ETC...</h2>
+        <h2 class="main_h2">Venha fazer parte do nosso time!</h2>
+        <p class="main_p">Selecione a unidade em que você gostaria de trabalhar, preencha os dados do<br> formulário e envie seu currículo para participar de futuros processos seletivos.</p>
+        
+        <section>
+
+            <form action="">
+
+                <div class="container_select">
+                    <p class="form_p">SEU NOME</p>
+                    <input type="text" placeholder="Ex: Luiz Otávio">
+                </div>
+                
+                <div class="container_select">
+                    <p class="form_p">SEU E-MAIL</p>
+                    <input type="email" placeholder="Ex: seuemail@gmail.com">
+                </div>
+
+                <div class="container_select">
+                    <p class="form_p">SEU TELEFONE</p>
+                    <input type="tel" placeholder="Ex: (14) 99999-9999">
+                </div> 
+
+                <div>
+                    <p class="form_p">SEU CURRÍCULO</p>
+                    <input type="file" id="curriculo" name="curriculo" accept=".pdf, .doc, .docx">
+                </div>
+            </form>
+
+            <button class="main_button"><a href="">ENVIAR CURRICULO</a></button>
+
+        </section>
+    
     </main>  
     
     <footer class="fp">
