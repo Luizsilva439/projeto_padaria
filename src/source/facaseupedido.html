@@ -1,60 +1,144 @@
-<!DOCTYPE html>  
-<html lang="pt-BR">  
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Padaria XV de novembro</title>  
-    <link rel="stylesheet" href="../styles/index.css"> 
-</head>  
-<body class="container">  
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padaria XV de novembro</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/facaseupedido.css" />
+  </head>
+  <body class="container">
     <header class="hp">
-        <div class="divdohp">
-            <img id ="imghp" src="img/logopadariaxv.png" alt="logo padaria xv de novembro">
-            <div class="maintitle">
-                <h1 id="titulop">Padaria XV de Novembro</h1>
-                <p id="frasep">Há 82 anos, servindo sabor e tradição à sua mesa.</p>
-            </div>       
-        </div>        
-        <button class="botaopedir"><a href="facaseupedido.html">FAÇA SEU PEDIDO ONLINE </a></button>         
-    </header>   
+      <div class="divdohp">
+        <img
+          id="imghp"
+          src="img/logopadariaxv.png"
+          alt="logo padaria xv de novembro"
+        />
+        <div class="maintitle">
+          <h1 id="titulop">Padaria XV de Novembro</h1>
+          <p id="frasep">Há 82 anos, servindo sabor e tradição à sua mesa.</p>
+        </div>
+      </div>
+      <button class="botaopedir">
+        <a href="facaseupedido.html">FAÇA SEU PEDIDO ONLINE </a>
+      </button>
+    </header>
 
-    <nav>  
-        <ul>
-            <li><a href="index.html">Home</a></li>  
-            <li><a href="sobrenos.html">Sobre Nós</a></li>  
-            <li><a href="produtos.html">Produtos</a></li>  
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>  
-        </ul>  
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobrenos.html">Sobre Nós</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+      </ul>
     </nav>
     <main>
-        <h2>CARRINHO POSSIVELMENTE UMA PAGINA PARA CRIAÇÃO DE CONTAS, COM EMAIL, ENDEREÇO, TELEFONE, ETC, OU TAMBEM CAMPO PARA LOGIN</h2>
-    </main>  
-    
-    <footer class="fp">
-        <div class="divdofp">
-            <address id="edfp">Padaria XV de Novembro - Av. São José, 2331 - Garça - SP</address>
-            <div class="meurodape">
-                <img id="imgfp" src="img/logopadariaxv.png" alt="logo padaria xv de novembro">
-                <h1 id="titulofp">Padaria XV de Novembro</h1>
+      <div class="container">
+        <form class="pedido-form">
+          <h2>Faça seu pedido online</h2>
+          <!-- Nome -->
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" required />
+
+          <!-- Telefone -->
+          <label for="telefone">Telefone:</label>
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="Telefone ou WhatsApp"
+            required
+          />
+          <div class="divisor">
+            <!-- Produto -->
+            <div class="campo">
+              <label for="Produto">Produto:</label>
+              <select name="produto" id="produto" required>
+                <option value="">Selecione um produto</option>
+                <option value="pao-frances">Pão Frânces</option>
+                <option value="pao-mortadela">Pão com mortadela</option>
+                <option value="carolina-doce-leite">
+                  Carolina de doce de leite
+                </option>
+                <option value="polvilho">Polvilho</option>
+                <option value="coxinha-frango">Coxinha de frango</option>
+                <option value="dunnuts">Dunnuts</option>
+                <option value="enroladinho-presunto">
+                  Enroladinho de presunto e queijo
+                </option>
+                <option value="pudim">Pudim de leite condensado</option>
+              </select>
             </div>
+
+            <!-- Quantidade -->
+            <div class="campo">
+              <label for="quantidade">Quantidade</label>
+              <input
+                type="number"
+                name="quantidade"
+                id="quantidade"
+                min="1"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Observações -->
+          <label for="observacoes">Observações:</label>
+          <textarea id="observacoes" name="observacoes"></textarea>
+
+          <!-- Endereço -->
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" required />
+
+          <label for="pagamento">Forma de pagamento:</label>
+          <select id="pagamento" name="pagamento" required>
+            <option value="">Selecione a forma de pagamento</option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="cartao">Cartão</option>
+            <option value="pix">Pix</option>
+          </select>
+
+          <button type="submit">Enviar pedido</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="fp">
+      <div class="divdofp">
+        <address id="edfp">
+          Padaria XV de Novembro - Av. São José, 2331 - Garça - SP
+        </address>
+        <div class="meurodape">
+          <img
+            id="imgfp"
+            src="img/logopadariaxv.png"
+            alt="logo padaria xv de novembro"
+          />
+          <h1 id="titulofp">Padaria XV de Novembro</h1>
         </div>
-        <div id="redes">
-            <ul>
-                <li>
-                    <a href="https://facebook.com/">
-                    <img class="icone" src="img/facebook.png" alt="logo Facebook"></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/">
-                    <img class="icone" src="img/instagram.png" alt="logo instagram"></a>
-                </li>
-                <li>
-                    <a href="https://tiktok.com/">
-                    <img class="icone" src="img/linkedin.png" alt="logo tiktok"></a>
-                </li>
-            </ul>
-        </div>
+      </div>
+      <div id="redes">
+        <ul>
+          <li>
+            <a href="https://facebook.com/">
+              <img class="icone" src="img/facebook.png" alt="logo Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/">
+              <img class="icone" src="img/instagram.png" alt="logo instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://tiktok.com/">
+              <img class="icone" src="img/linkedin.png" alt="logo tiktok"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-</body>  
+  </body>
 </html>

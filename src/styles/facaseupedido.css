@@ -1,0 +1,68 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  padding: 40px 0;
+}
+.container {
+  min-height: 0;
+}
+.pedido-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pedido-form label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.pedido-form input,
+.pedido-form select,
+.pedido-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pedido-form textarea {
+  resize: vertical;
+}
+
+.pedido-form button {
+  padding: 12px;
+  background-color: rgb(245, 131, 0);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pedido-form button:hover {
+  background-color: rgb(255, 144, 17);
+}
+
+.divisor {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
