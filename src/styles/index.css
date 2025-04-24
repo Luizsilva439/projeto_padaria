@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #fdfaf0;
@@ -133,7 +132,7 @@ nav a {
   padding: 15px;
 }
 
-#textoinf1 {
+#textoinf1{
   width: 30%;
   margin-left: 5%;
  
@@ -157,7 +156,7 @@ nav a {
 #textoinf2 h3 {
   font-family: "Alice", serif;
   margin-top: 10px;
-  font-size: 40px;
+  font-size: 35px;
 }
 #imginf2 {
   margin-left: 35%;
