@@ -45,13 +45,15 @@
   text-align: center;
 }
 .botaopedir {
+  padding: 10px 15px;
   font-family: "Alice", serif;
-  background-color: rgb(77, 55, 35);
-  width: 150px;
-  height: auto;
-  border-radius: 6px;
-}
-.botaopedir a:hover {
+  background-color: rgb(68, 26, 1);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+} 
+.botaopedir:hover {
   color: rgb(233, 137, 12);
 }
 .botaopedir a {
@@ -127,12 +129,14 @@ nav a {
 }
 #textoinf1 h3 {
   font-family: "Alice", serif;
-  margin-top: 10px;
+  margin-top: 10px; 
   font-size: 35px;
 }
 #imginf1 {
-  width: 400px;
-  height: 400px;
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
 }
 #inf2 {
   margin-top: 10px;
@@ -159,8 +163,10 @@ nav a {
 }
 #imginf2 {
   margin-left: 35%;
-  width: 400px;
-  height: 400px;
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
 }
 /*Aqui começa o rodapé do site*/
 #edfp {
