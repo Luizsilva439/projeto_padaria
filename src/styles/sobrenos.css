@@ -4,6 +4,7 @@
   background-color: bisque;
 }
 .historia {
+  justify-content:flex-start;
   display: flex;
   margin: 40px 0;
 }
@@ -31,6 +32,7 @@
   height: 500px;
 }
 #historia2 {
+  justify-content: end;
   background-color: bisque;
   display: flex;
   padding: 15px;

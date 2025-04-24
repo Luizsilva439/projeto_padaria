@@ -108,24 +108,35 @@ nav a {
   flex-direction: column;
   background-color: bisque;
 }
-#inf1 {
-  background-color: bisque;
+#inf1 , #inf2{
   display: flex;
   margin-top: 30px;
   margin-bottom: 40px;
 }
-#textoinf1 {
+#inf1{
+  justify-content: flex-start;
+}
+#inf2{
+  justify-content: end;
+}
+#textoinf1, #textoinf2{
+  text-align: center;
+
+}
+#textoinf1, #textoinf2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(68, 26, 1);
   color: white;
-  font-size: 24px;
+  font-size: 21px;
   display: flex;
-  text-align: center;
   flex-direction: column;
-  text-align: center;
+  padding: 15px;
+}
+
+#textoinf1 {
   width: 30%;
   margin-left: 5%;
-  padding: 15px;
+ 
 }
 #textoinf1 h3 {
   font-family: "Alice", serif;
@@ -138,23 +149,10 @@ nav a {
   width: 100%;
   height: auto;
 }
-#inf2 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  background-color: bisque;
-  display: flex;
-  text-align: center;
-}
+
 #textoinf2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 21px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-right: 10%;
-  background-color: rgb(68, 26, 1);
-  padding: 15px;
+  margin-right: 5%;
+  width: 30%;
 }
 #textoinf2 h3 {
   font-family: "Alice", serif;

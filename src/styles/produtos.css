@@ -46,13 +46,9 @@
   transition: 0.5s all;
 }
 .botaocomprar:hover {
-  border: 2px solid white;
-  border-radius: 6px;
-  font-family: Verdana;
-  padding: 6px;
-  cursor: pointer;
-  background-color: rgb(249, 35, 35);
+  background-color: darkred;
   color: white;
+  border-color: white;;
 }
 
 .vitrine {
@@ -60,4 +56,5 @@
   flex-wrap: wrap;
   padding: 20px;
   background-color: bisque;
+  justify-content: center;
 }
