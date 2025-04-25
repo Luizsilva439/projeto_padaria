@@ -43,7 +43,6 @@
   font-family: Verdana;
   padding: 6px;
   cursor: pointer;
-  transition: 0.5s all;
 }
 .botaocomprar:hover {
   background-color: darkred;
