@@ -42,18 +42,20 @@
   border-radius: 6px;
   font-family: Verdana;
   padding: 6px;
+  transition: all 0.3s;
   cursor: pointer;
 }
 .botaocomprar:hover {
   background-color: darkred;
   color: white;
-  border-color: white;;
+  border-color: white;
 }
 
 .vitrine {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
   padding: 20px;
   background-color: bisque;
-  justify-content: center;
+  justify-items: center; /* centraliza os cards dentro das colunas */
 }

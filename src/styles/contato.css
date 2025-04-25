@@ -18,9 +18,10 @@
 }
 
 
-.contato_form{
-    display: flex;
-    flex-direction: column;
+.contato_form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px; /* Espaçamento entre os elementos */
 }
 
 .contato_main_container{
